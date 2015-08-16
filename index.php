@@ -113,18 +113,46 @@
 
             <h3 class="page-header-line"><span>Патенты и сертификаты</span></h3>
             <ul class="js-bxslider certs-block" data-bx-slider-min-slides="4" data-bx-slider-max-slides="4" data-bx-slider-slide-width="220" data-bx-slider-slide-margin="65" data-bx-slider-pager="false" data-bx-slider-controls="true">
-                <li><img src="images/tmp/cert-thumb-1.jpg" /></li>
-                <li><img src="images/tmp/cert-thumb-2.jpg" /></li>
-                <li><img src="images/tmp/cert-thumb-3.jpg" /></li>
-                <li><img src="images/tmp/cert-thumb-4.jpg" /></li>
-                <li><img src="images/tmp/cert-thumb-1.jpg" /></li>
-                <li><img src="images/tmp/cert-thumb-2.jpg" /></li>
-                <li><img src="images/tmp/cert-thumb-3.jpg" /></li>
-                <li><img src="images/tmp/cert-thumb-4.jpg" /></li>
-                <li><img src="images/tmp/cert-thumb-1.jpg" /></li>
-                <li><img src="images/tmp/cert-thumb-2.jpg" /></li>
-                <li><img src="images/tmp/cert-thumb-3.jpg" /></li>
-                <li><img src="images/tmp/cert-thumb-4.jpg" /></li>
+                <li>
+                    <a href="images/tmp/cert-thumb-1.jpg" class="js-fancybox" rel="certs">
+                        <img src="images/tmp/cert-thumb-1.jpg" />
+                    </a>
+                </li>
+                <li>
+                    <a href="images/tmp/cert-thumb-2.jpg" class="js-fancybox" rel="certs">
+                        <img src="images/tmp/cert-thumb-3.jpg" />
+                    </a>
+                </li>
+                <li>
+                    <a href="images/tmp/cert-thumb-3.jpg" class="js-fancybox" rel="certs">
+                        <img src="images/tmp/cert-thumb-3.jpg" />
+                    </a>
+                </li>
+                <li>
+                    <a href="images/tmp/cert-thumb-4.jpg" class="js-fancybox" rel="certs">
+                        <img src="images/tmp/cert-thumb-4.jpg" />
+                    </a>
+                </li>
+                <li>
+                    <a href="images/tmp/cert-thumb-1.jpg" class="js-fancybox" rel="certs">
+                        <img src="images/tmp/cert-thumb-1.jpg" />
+                    </a>
+                </li>
+                <li>
+                    <a href="images/tmp/cert-thumb-2.jpg" class="js-fancybox" rel="certs">
+                        <img src="images/tmp/cert-thumb-2.jpg" />
+                    </a>
+                </li>
+                <li>
+                    <a href="images/tmp/cert-thumb-3.jpg" class="js-fancybox" rel="certs">
+                        <img src="images/tmp/cert-thumb-3.jpg" />
+                    </a>
+                </li>
+                <li>
+                    <a href="images/tmp/cert-thumb-4.jpg" class="js-fancybox" rel="certs">
+                        <img src="images/tmp/cert-thumb-4.jpg" />
+                    </a>
+                </li>
             </ul>
 
             <h3 class="page-header-line"><span>Отзывы клиентов</span></h3>

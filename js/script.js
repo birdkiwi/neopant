@@ -32,4 +32,37 @@ $(document).ready(function(){
         var mask = $(this).data('masked');
         $(this).mask(mask);
     });
+
+    $('.js-languages').each(function(){
+        $(this).find('.language-change-block-language').click(function(){
+
+            function hideEvent(e) {
+                if(!jQuery(e.target).closest('.language-change-block-list').length) {
+                    hideLanguages();
+                    jQuery(document).off('click', 'body', hideEvent);
+                }
+            }
+
+            function showLanguages(){
+                $('.language-change-block-list').fadeIn('fast');
+                $(this).addClass('active');
+                jQuery(document).on('click', 'body', hideEvent);
+            }
+
+            function hideLanguages(){
+                $('.language-change-block-list').fadeOut('fast');
+                $(this).removeClass('active');
+            }
+
+            if ($(this).hasClass('active')) {
+                hideLanguages();
+            } else {
+                showLanguages();
+            }
+
+            return false;
+        });
+    });
+
+    $(".js-fancybox").fancybox();
 });

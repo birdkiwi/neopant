@@ -209,7 +209,7 @@
                                     <input type="email" name="email" required placeholder="Ваше email">
                                 </div>
                                 <div class="col-xs-12">
-                                    <textarea name="review" cols="30" rows="10" placeholder="Текст отзыва"></textarea>
+                                    <textarea name="review" cols="30" rows="10" placeholder="Текст отзыва" required></textarea>
                                 </div>
                                 <div class="col-xs-12">
                                     <input type="submit" class="btn btn-success" value="Опубликовать">

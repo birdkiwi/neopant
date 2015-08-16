@@ -101,7 +101,7 @@
                             <div class="module ask-question-module">
                                 <h3 class="module-title">Задать вопрос врачу</h3>
 
-                                <form action="#" method="POST">
+                                <form action="#" method="POST" class="js-validate">
                                     <p>
                                         <input type="text" name="name" placeholder="Ваше имя" required>
                                     </p>

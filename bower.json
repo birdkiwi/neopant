@@ -23,6 +23,7 @@
     "html5shiv": "~3.7.3",
     "respond": "~1.4.2",
     "fontawesome": "~4.4.0",
-    "bxslider-4": "~4.2.5"
+    "bxslider-4": "~4.2.5",
+    "fancybox": "~2.1.5"
   }
 }

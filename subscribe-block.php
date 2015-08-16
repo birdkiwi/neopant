@@ -1,4 +1,4 @@
-<form action="#" method="POST" class="subscribe-block">
+<form action="#" method="POST" class="subscribe-block js-validate">
     <div class="row">
         <div class="subscribe-block-desc col-xs-12 col-sm-4">
             Подпишитесь на рассылку и получите 30 рекомендаций от врача бесплатно

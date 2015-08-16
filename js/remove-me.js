@@ -7,9 +7,10 @@ $(document).ready(function(){
         '4. √ <a href="article.php">Статья</a><br />' +
         '7. √ <a href="news.php">Новости</a><br />' +
         '10. √ <a href="catalog.php">Каталог</a><br />' +
-        '11. <a href="product.php">Каталог - товар</a><br />' +
+        '11. √ <a href="product.php">Каталог - товар</a><br />' +
         '12. √ <a href="catalog-categories.php">Каталог - подкатегории</a><br />' +
         '14. √ <a href="cart.php">Корзина</a><br />' +
+        '16. √ <a href="catalog-filter.php">Сферы применения</a><br />' +
         '17. √ <a href="reviews.php">Отзывы</a><br />' +
 
         '<br />' +

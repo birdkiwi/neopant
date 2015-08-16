@@ -1,8 +1,14 @@
 <div class="wrapper">
     <header class="main-header">
         <div class="clearfix">
-            <div class="language-change-block">
-                <span class="language-change-block-label">Язык:</span> <span class="language-change-block-language">English</span>
+            <div class="language-change-block js-languages">
+                <span class="language-change-block-label">Язык:</span> <a href="#" class="language-change-block-language">Russian</a>
+                <div class="language-change-block-list">
+                    <ul>
+                        <li><a href="#"><img src="images/flags/ru.png" alt="ru" width="16" height="16"> Русский</a></li>
+                        <li><a href="#"><img src="images/flags/en.png" alt="en" width="16" height="16"> English</a></li>
+                    </ul>
+                </div>
             </div>
             <nav class="main-header-menu">
                 <ul>

@@ -17,6 +17,9 @@ module.exports = function(grunt) {
             frontend: {
                 files: {
                     'build/style.min.css': ['build/style.css']
+                },
+                options: {
+                    'processImport': false
                 }
             }
         },
@@ -31,6 +34,7 @@ module.exports = function(grunt) {
                     'bower_components/bxslider-4/src/js/jquery.bxslider.js',
                     'bower_components/spin.js/spin.js',
                     'bower_components/spin.js/jquery.spin.js',
+                    'bower_components/fancybox/source/jquery.fancybox.js',
                     'js/ilya-birman-likely-0.94/likely.js',
                     'js/jquery.bxslider-alt.js',
                     'js/jquery.to-top-scroller.js',
