@@ -55,10 +55,10 @@
                     <div class="product-block-features">
                         <ul>
                             <li>
-                                <a href="#"><span>Бесплатная доставка</span></a>
+                                <a href="#" class="icon icon-truck"><span>Бесплатная доставка</span></a>
                             </li>
                             <li>
-                                <a href="#"><span>Гарантия качества</span></a>
+                                <a href="#" class="icon icon-rst"><span>Гарантия качества</span></a>
                             </li>
                         </ul>
                     </div>

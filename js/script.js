@@ -1,3 +1,22 @@
+function showMobileMenu() {
+    $('.main-offcanvas').addClass('active');
+    $('[data-offcanvas]').addClass('active');
+
+    function hideEvent(e) {
+        if(!$(e.target).closest('.main-offcanvas').length) {
+            hideMobileMenu();
+            $(document).off('click', 'body', hideEvent);
+        }
+    }
+
+    $(document).on('click', 'body', hideEvent);
+}
+
+function hideMobileMenu() {
+    $('.main-offcanvas').removeClass('active');
+    $('[data-offcanvas]').removeClass('active');
+}
+
 $(document).ready(function(){
     $(".js-bxslider").bxSliderAlt();
     $("[data-btn-up]").btnUp();
@@ -37,16 +56,16 @@ $(document).ready(function(){
         $(this).find('.language-change-block-language').click(function(){
 
             function hideEvent(e) {
-                if(!jQuery(e.target).closest('.language-change-block-list').length) {
+                if(!$(e.target).closest('.language-change-block-list').length) {
                     hideLanguages();
-                    jQuery(document).off('click', 'body', hideEvent);
+                    $(document).off('click', 'body', hideEvent);
                 }
             }
 
             function showLanguages(){
                 $('.language-change-block-list').fadeIn('fast');
                 $(this).addClass('active');
-                jQuery(document).on('click', 'body', hideEvent);
+                $(document).on('click', 'body', hideEvent);
             }
 
             function hideLanguages(){
@@ -65,4 +84,13 @@ $(document).ready(function(){
     });
 
     $(".js-fancybox").fancybox();
+
+    $('[data-offcanvas]').click(function(){
+        if ($(this).hasClass('active')) {
+            hideMobileMenu();
+        } else {
+            showMobileMenu();
+        }
+        return false;
+    });
 });

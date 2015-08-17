@@ -1,0 +1,42 @@
+.icon {
+  display: inline-block;
+  position: relative;
+}
+
+.icon-rst {
+  &:before {
+    position: relative;
+    top: 5px;
+    content: "";
+    display: inline-block;
+    margin-right: 5px;
+    background: url("../images/icon-rst.png") no-repeat center;
+    width: 30px;
+    height: 21px;
+  }
+
+  &:hover {
+    &:before {
+      background-image: url("../images/icon-rst-hover.png");
+    }
+  }
+}
+
+.icon-truck {
+  &:before {
+    position: relative;
+    top: 5px;
+    content: "";
+    display: inline-block;
+    margin-right: 5px;
+    background: url("../images/icon-truck.png") no-repeat center;
+    width: 30px;
+    height: 21px;
+  }
+
+  &:hover {
+    &:before {
+      background-image: url("../images/icon-truck-hover.png");
+    }
+  }
+}

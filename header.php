@@ -18,6 +18,7 @@
                     <li><a href="#">Доставка и оплата</a></li>
                     <li><a href="#">Сотрудничество</a></li>
                     <li><a href="#">Оптовикам</a></li>
+                    <li><a href="#">Контакты</a></li>
                 </ul>
             </nav>
         </div>
@@ -64,4 +65,79 @@
             </ul>
         </nav>
     </header>
+
+    <header class="main-header-mobile">
+        <div class="main-header-mobile-languages">
+            <ul>
+                <li><a href="#">Русский</a></li>
+                <li><a href="#">English</a></li>
+                <li><a href="#">Español</a></li>
+            </ul>
+        </div>
+
+        <div class="clearfix">
+            <div class="main-header-logo-mobile">
+                <a href="#">
+                    <img src="images/logo-small.png" alt="Неопант" width="120">
+                </a>
+            </div>
+
+            <div class="main-header-mobile-contacts">
+                <a href="tel:+7 383 350-96-03">+7 383 350-96-03</a>
+                <a href="#">Заказать обратный звонок</a>
+
+                <div class="main-header-mobile-user">
+                    <a href="#">Вход / Регистрация</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-header-mobile-cart">
+            <a href="#" class="main-header-bar-cart">
+                Корзина <span class="main-header-bar-cart-quantity">(0)</span>
+            </a>
+        </div>
+
+        <div class="main-header-mobile-menu" data-offcanvas>
+            <span class="main-header-mobile-menu-desc">Меню магазина</span>
+            <span class="main-header-menu-toggler"><i class="fa fa-bars"></i></span>
+        </div>
+    </header>
+</div>
+
+<div class="main-offcanvas">
+    <div class="main-offcanvas-search">
+        <form action="#" method="post" class="form-inline">
+            <div class="input-group">
+                <input name="searchword" class="input-sm form-control" placeholder="Поиск..." type="search">
+                <div class="input-group-btn">
+                    <button class="btn btn-success btn-sm" onclick="this.form.searchword.focus();"><i class="fa fa-search"></i></button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="main-offcanvas-menu">
+        <ul>
+            <li><a href="#">Главная</a></li>
+            <li>
+                <a href="#">Продукция</a>
+                <ul>
+                    <li><a href="#">Вся продукция</a></li>
+                    <li><a href="#">Лечебно-оздоровительная продукция</a></li>
+                    <li><a href="#">Косметика</a></li>
+                    <li><a href="#">Парфюмерная продукция</a></li>
+                    <li><a href="#">Напитки и бальзамы</a></li>
+                    <li><a href="#">Коррекция половой дисфункции</a></li>
+                </ul>
+            </li>
+            <li><a href="#">О компании</a></li>
+            <li><a href="#">Отзывы</a></li>
+            <li><a href="#">Вопрос/ответ</a></li>
+            <li><a href="#">Доставка и оплата</a></li>
+            <li><a href="#">Сотрудничество</a></li>
+            <li><a href="#">Оптовикам</a></li>
+            <li><a href="#">Контакты</a></li>
+        </ul>
+    </div>
 </div>
