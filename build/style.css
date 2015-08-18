@@ -9162,7 +9162,8 @@ ul.bxslider {
   float: left;
 }
 body {
-  background: #d3eba2;
+  background: url("../images/background.jpg") repeat-y top center #d3eba2;
+  background-size: 100%;
   font-size: 14px;
   color: #282828;
   font-family: MyriadPro, Arial, sans-serif;
@@ -11450,6 +11451,9 @@ textarea {
   }
   .paginator li a {
     padding: 8px 10px;
+  }
+  .cart-block-item-image {
+    margin-bottom: 30px;
   }
   .cart-block-item-name {
     display: block;
