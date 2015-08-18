@@ -1,4 +1,12 @@
 @media (max-width: @screen-xs-max) {
+  .main-header {
+    display: none;
+  }
+
+  .main-header-mobile {
+    display: block;
+  }
+
   .comments-block-list-item-meta-avatar {
     img {
       width: 50px;
@@ -57,14 +65,17 @@
 
   .alert-block {
     border-radius: 0;
-
-    .pull-left,
-    .pull-right {
-      text-align: left;
-      float: none !important;
-    }
-
     text-align: left;
+  }
+
+  .alert-block-left,
+  .alert-block-right {
+    text-align: left;
+    float: none;
+  }
+
+  .alert-block-center {
+    font-size: 16px;
   }
 
   .news-block {
@@ -80,16 +91,8 @@
     margin-right: -20px;
   }
 
-  .cart-block {
-    .cart-block-heading {
-      display: none;
-    }
-
-    .cart-block-item-price,
-    .cart-block-item-quantity,
-    .cart-block-item-subtotal {
-      padding-top: 10px;
-    }
+  .catalog-block-categories-item-name {
+    font-size: 14px;
   }
 
   .main-footer {
@@ -114,14 +117,210 @@
       }
     }
   }
+
+  .cart-block-item-name {
+    display: block;
+    height: auto;
+  }
+
+  .cart-block-item-price,
+  .cart-block-item-subtotal,
+  .cart-block-item-quantity {
+    padding-top: 5px;
+    text-align: left;
+  }
+
+  .cart-block-total {
+    padding: 10px 0;
+  }
+
+  .cart-block-total-price {
+    font-size: 24px;
+  }
+
+  .cart-block-total-price-currency {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: @screen-md-max) {
+  .subscribe-block {
+    input {
+      font-size: 12px;
+      font-weight: normal;
+    }
+  }
+
+  .products-block {
+    .row {
+      margin-left: -5px;
+      margin-right: -5px;
+
+      .col-xs-6,
+      .col-xs-12 {
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+    }
+  }
+
+  .products-block-item-name {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  .products-block-item-desc {
+    font-size: 12px;
+  }
+
+  .products-block-item-price {
+    font-size: 14px;
+  }
+
+  .cart-block-item-delete {
+    width: 24px;
+    height: 24px;
+  }
 }
 
 @media (max-width: 1145px) {
   .main-header {
+    .language-change-block {
+      float: none;
+      margin-bottom: 10px;
+    }
+  }
+
+  .main-header-menu {
+    float: none;
+  }
+
+  .main-header-logo {
+    left: 40px;
+    top: 40px;
+  }
+
+  .main-header-slogan {
+    left: 440px;
+    top: 90px;
+  }
+
+  .main-header-bar {
+    width: 100%;
+    padding-left: 25px;
+    padding-right: 40px;
+    left: 0;
+  }
+
+  .main-header-bar-bg {
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .main-header-bar-left {
+    left: 1px;
+  }
+
+  .main-header-bar-right {
+    right: 4px;
+  }
+  
+  .main-header-bar-search {
+    margin-left: 0;
+    margin-right: 35px;
+  }
+
+  .main-header-bar-phone {
+    margin-top: 8px;
+
+    a[href^="tel"] {
+      font-size: 24px;
+    }
+  }
+
+  .main-header-catalog-menu {
+    margin-left: -20px;
+    margin-right: -20px;
+
+    ul li a {
+      font-size: 12px;
+      padding: 5px 8px;
+      text-align: center;
+    }
+  }
+
+  .module-title {
+    font-size: 15px;
+  }
+
+  .menu-module {
+    .module-title {
+      font-size: 15px;
+    }
+  }
+
+  .subscribe-grass-block {
+    .subscribe-grass-block-desc {
+      font-size: 18px;
+    }
+
+    .btn {
+      font-size: 12px;
+    }
+  }
+
+  .cart-block-item-price,
+  .cart-block-item-subtotal {
+    font-size: 20px;
+  }
+
+  .cart-block-item-price-currency,
+  .cart-block-item-subtotal-currency {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 960px) {
+  .main-header-menu ul li a {
+    padding: 0px 9px;
+  }
+
+  .main-header-slogan {
     display: none;
   }
 
-  .main-header-mobile {
+  .main-header-bar-phone {
+    margin-right: 20px;
+  }
+
+  .main-header-bar-search {
+    width: 160px;
+  }
+
+  .main-header-bar-cart {
+    margin-right: 10px;
+  }
+
+  .subscribe-grass-block {
+    .subscribe-grass-block-desc {
+      padding-left: 0;
+      background-image: none;
+    }
+
+    .btn {
+      padding: 5px 10px;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .product-block-addtocart-button {
     display: block;
+    margin-top: 10px;
+    top: auto;
+
+    .btn {
+      width: 100%;
+    }
   }
 }

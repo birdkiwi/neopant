@@ -13,44 +13,8 @@
                 </ul>
             </nav>
             <div class="row">
-                <aside class="main-sidebar col-xs-12 col-sm-3">
-                    <div class="module subscribe-module">
-                        <h3 class="module-title">Подпишитесь на рассылку и получайте:</h3>
-                        <p>
-                            - полезные материалы о здоровье человека <br>
-                            - информацию о скидках, акциях
-                        </p>
-                        <form action="#" method="POST">
-                            <p><input type="email" name="email" placeholder="EMAIL" required></p>
-                            <input type="submit" value="OK" class="btn btn-success">
-                        </form>
-                    </div>
 
-                    <div class="module blog-module">
-                        <h3 class="module-title">Блог о здоровье человека</h3>
-                        <ul>
-                            <li>
-                                <a href="#">Об алтайском пантогематогене - история создания, целебные свойства</a>
-                            </li>
-                            <li>
-                                <a href="#">Мужская сила &mdash; пантовые средства усиления потенции</a>
-                            </li>
-                            <li>
-                                <a href="#">10 способов сделать кожу лица молодой и упругой.</a>
-                            </li>
-                            <li>
-                                <a href="#">Пантовые гели &mdash; применение в качестве средства борьбы с болью в суставах.</a>
-                            </li>
-                            <li>
-                                <a href="#">Об алтайском пантогематогене &mdash; история создания, целебные свойства</a>
-                            </li>
-                        </ul>
-                        <div class="blog-module-readmore">
-                            <a href="#" class="">Смотреть все статьи</a> <i class="fa fa-chevron-right"></i>
-                        </div>
-                    </div>
-                </aside>
-                <div class="main-content-main col-xs-12 col-sm-9">
+                <div class="main-content-main col-xs-12 col-sm-8 col-md-9 col-sm-push-4 col-md-push-3">
                     <div class="row">
                         <div class="col-sm-12 col-md-7">
                             <div class="faq-block">
@@ -117,6 +81,44 @@
                         </div>
                     </div>
                 </div>
+
+                <aside class="main-sidebar col-xs-12 col-sm-4 col-md-3 col-sm-pull-8 col-md-pull-9">
+                    <div class="module subscribe-module">
+                        <h3 class="module-title">Подпишитесь на рассылку и получайте:</h3>
+                        <p>
+                            - полезные материалы о здоровье человека <br>
+                            - информацию о скидках, акциях
+                        </p>
+                        <form action="#" method="POST">
+                            <p><input type="email" name="email" placeholder="EMAIL" required></p>
+                            <input type="submit" value="OK" class="btn btn-success">
+                        </form>
+                    </div>
+
+                    <div class="module blog-module">
+                        <h3 class="module-title">Блог о здоровье человека</h3>
+                        <ul>
+                            <li>
+                                <a href="#">Об алтайском пантогематогене - история создания, целебные свойства</a>
+                            </li>
+                            <li>
+                                <a href="#">Мужская сила &mdash; пантовые средства усиления потенции</a>
+                            </li>
+                            <li>
+                                <a href="#">10 способов сделать кожу лица молодой и упругой.</a>
+                            </li>
+                            <li>
+                                <a href="#">Пантовые гели &mdash; применение в качестве средства борьбы с болью в суставах.</a>
+                            </li>
+                            <li>
+                                <a href="#">Об алтайском пантогематогене &mdash; история создания, целебные свойства</a>
+                            </li>
+                        </ul>
+                        <div class="blog-module-readmore">
+                            <a href="#" class="">Смотреть все статьи</a> <i class="fa fa-chevron-right"></i>
+                        </div>
+                    </div>
+                </aside>
             </div>
         </div>
     </div>

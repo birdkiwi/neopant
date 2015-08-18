@@ -13,36 +13,7 @@
                 </ul>
             </nav>
             <div class="row">
-                <aside class="main-sidebar col-xs-12 col-sm-3">
-                    <div class="module menu-module">
-                        <h3 class="module-title">Блог о здоровье человека</h3>
-
-                        <ul>
-                            <li>
-                                <a href="#">Профилактика заболеваний</a>
-                            </li>
-                            <li class="active">
-                                <a href="#">Человек и пантовые препараты</a>
-                            </li>
-                            <li>
-                                <a href="#">Заголовок рубрики</a>
-                            </li>
-                            <li>
-                                <a href="#">Человек и пантовые препараты</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="module social-module">
-                        <h3 class="module-title">Присоединяйтесь!</h3>
-
-                        <a href="#" class="social-module-icon"><img src="images/icon-googleplus.png" width="36" height="36" alt="Google+"></a>
-                        <a href="#" class="social-module-icon"><img src="images/icon-linkedin.png" width="36" height="36" alt="LinkedIn"></a>
-                        <a href="#" class="social-module-icon"><img src="images/icon-rss.png" width="36" height="36" alt="RSS"></a>
-                        <a href="#" class="social-module-icon"><img src="images/icon-facebook.png" width="36" height="36" alt="Facebook"></a>
-                    </div>
-                </aside>
-                <div class="main-content-main col-xs-12 col-sm-9">
+                <div class="main-content-main col-xs-12 col-sm-8 col-md-9 col-sm-push-4 col-md-push-3">
                     <h1 class="page-header">Об алтайском пантогематогене &mdash; история создания, целебные свойства</h1>
 
                     <article class="article-block">
@@ -82,7 +53,7 @@
 
                         <div class="products-block">
                             <div class="row">
-                                <div class="col-xs-12 col-sm-4">
+                                <div class="col-xs-6 col-sm-4">
                                     <div class="products-block-item label-new">
                                         <div class="products-block-item-image">
                                             <a href="#">
@@ -101,7 +72,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xs-12 col-sm-4">
+                                <div class="col-xs-6 col-sm-4">
                                     <div class="products-block-item">
                                         <div class="products-block-item-image">
                                             <a href="#">
@@ -120,7 +91,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xs-12 col-sm-4">
+
+                                <div class="col-xs-6 col-sm-4 hidden-xs">
                                     <div class="products-block-item">
                                         <div class="products-block-item-image">
                                             <a href="#">
@@ -219,6 +191,37 @@
                     </div>
 
                 </div>
+
+                <aside class="main-sidebar col-xs-12 col-sm-4 col-md-3 col-sm-pull-8 col-md-pull-9">
+                    <div class="module menu-module">
+                        <h3 class="module-title">Блог о здоровье человека</h3>
+
+                        <ul>
+                            <li>
+                                <a href="#">Профилактика заболеваний</a>
+                            </li>
+                            <li class="active">
+                                <a href="#">Человек и пантовые препараты</a>
+                            </li>
+                            <li>
+                                <a href="#">Заголовок рубрики</a>
+                            </li>
+                            <li>
+                                <a href="#">Человек и пантовые препараты</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="module social-module">
+                        <h3 class="module-title">Присоединяйтесь!</h3>
+
+                        <a href="#" class="social-module-icon"><img src="images/icon-googleplus.png" width="36" height="36" alt="Google+"></a>
+                        <a href="#" class="social-module-icon"><img src="images/icon-linkedin.png" width="36" height="36" alt="LinkedIn"></a>
+                        <a href="#" class="social-module-icon"><img src="images/icon-rss.png" width="36" height="36" alt="RSS"></a>
+                        <a href="#" class="social-module-icon"><img src="images/icon-facebook.png" width="36" height="36" alt="Facebook"></a>
+                    </div>
+                </aside>
+
             </div>
         </div>
     </div>

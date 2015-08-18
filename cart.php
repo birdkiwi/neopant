@@ -18,7 +18,7 @@
                 <h1 class="page-header">Корзина</h1>
 
                 <div class="cart-block">
-                    <div class="cart-block-heading">
+                    <div class="cart-block-heading hidden-xs">
                         <div class="row">
                             <div class="col-xs-5 text-center">Наименование</div>
                             <div class="col-xs-2 text-center">Цена за шт./руб.</div>
@@ -28,7 +28,7 @@
                     </div>
                     <div class="cart-block-item">
                         <div class="row">
-                            <div class="col-xs-12 col-sm-6 col-md-5">
+                            <div class="col-xs-12 col-sm-5">
                                 <div class="cart-block-item-image">
                                     <a href="#">
                                         <img src="images/tmp/product-1.jpg" alt="">
@@ -38,12 +38,34 @@
                                     <a href="#">
                                         Пантовый гель Неопант-1 для физиопроцедур
                                     </a>
+
+                                    <div class="visible-xs">
+                                        <div class="cart-block-item-price">2 150 <span class="cart-block-item-price-currency">руб.</span></div>
+                                        <div class="cart-block-item-quantity">
+                                            <form action="#" method="POST">
+                                                <div class="product-quantity-block">
+                                                    <input type="text" value="8">
+                                                    <div class="product-quantity-block-buttons">
+                                                        <a href="#" class="product-quantity-block-buttons-plus"></a>
+                                                        <a href="#" class="product-quantity-block-buttons-minus"></a>
+                                                    </div>
+                                                    шт.
+                                                </div>
+                                            </form>
+                                        </div>
+
+                                        <div class="cart-block-item-subtotal">
+                                            5 200 <span class="cart-block-item-subtotal-currency">руб</span>
+
+                                            <a href="#" class="cart-block-item-delete" title="Удалить товар">x</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-xs-12 col-sm-6 col-md-2">
+                            <div class="col-xs-2 hidden-xs">
                                 <div class="cart-block-item-price">2 150 <span class="cart-block-item-price-currency">руб.</span></div>
                             </div>
-                            <div class="col-xs-12 col-sm-6 col-md-2">
+                            <div class="col-xs-2 hidden-xs">
                                 <div class="cart-block-item-quantity">
                                     <form action="#" method="POST">
                                         <div class="product-quantity-block">
@@ -57,52 +79,11 @@
                                     </form>
                                 </div>
                             </div>
-                            <div class="col-xs-12 col-sm-6 col-md-3">
+                            <div class="col-xs-3 hidden-xs">
                                 <div class="cart-block-item-subtotal">
                                     5 200 <span class="cart-block-item-subtotal-currency">руб</span>
 
-                                    <a href="#" class="cart-block-item-delete">x</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="cart-block-item">
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-6 col-md-5">
-                                <div class="cart-block-item-image">
-                                    <a href="#">
-                                        <img src="images/tmp/product-2.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="cart-block-item-name">
-                                    <a href="#">
-                                        Пантовая ванна для ног
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-xs-12 col-sm-6 col-md-2">
-                                <div class="cart-block-item-price">350 <span class="cart-block-item-price-currency">руб.</span></div>
-                            </div>
-                            <div class="col-xs-12 col-sm-6 col-md-2">
-                                <div class="cart-block-item-quantity">
-                                    <form action="#" method="POST">
-                                        <div class="product-quantity-block">
-                                            <input type="text" value="1">
-                                            <div class="product-quantity-block-buttons">
-                                                <a href="#" class="product-quantity-block-buttons-plus"></a>
-                                                <a href="#" class="product-quantity-block-buttons-minus"></a>
-                                            </div>
-                                            шт.
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                            <div class="col-xs-12 col-sm-6 col-md-3">
-                                <div class="cart-block-item-subtotal">
-                                    5 200 <span class="cart-block-item-subtotal-currency">руб</span>
-
-                                    <a href="#" class="cart-block-item-delete">x</a>
+                                    <a href="#" class="cart-block-item-delete" title="Удалить товар">x</a>
                                 </div>
                             </div>
                         </div>

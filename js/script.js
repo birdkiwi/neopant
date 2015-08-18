@@ -93,4 +93,10 @@ $(document).ready(function(){
         }
         return false;
     });
+
+    $('.js-accordeon-menu').click(function(){
+        $(this).siblings('ul, .main-header-mobile-menu-search').slideToggle('fast');
+
+        return false;
+    });
 });
